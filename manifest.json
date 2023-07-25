@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "twitter again",
+    "description": "twitter de volta",
+    "author": "AliETninja",
+    "icons": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+      ]
+}
